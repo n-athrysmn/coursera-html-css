@@ -1,0 +1,132 @@
+:root {
+    --primary: #388087;
+    --secondary: #6fb3b8;
+    --info: #badfe7;
+    --bg-color: #f6f6f2;
+    --bs-font-sans-serif: Inter, Helvetica, "sans-serif";
+    --bs-body-font-family: var(--bs-font-sans-serif);
+    --bs-body-font-size: 1rem;
+    --bs-body-font-weight: 400;
+    --bs-body-line-height: 1.5;
+}
+
+body{
+    margin: 0;
+    font-family: var(--bs-body-font-family);
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    background-color: var(--bg-color);
+    padding: 0 100px;
+}
+
+.mr-15{
+    margin-right: 15px;
+}
+
+.ml-15{
+    margin-left: 15px;
+}
+
+.mb-15{
+    margin-bottom: 15px;
+}
+
+.mt-15{
+    margin-top: 15px;
+}
+
+header{
+    text-align: center;
+}
+
+.logo{
+    padding: 30px;
+    width: 100px;
+}
+
+.nav-list{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    list-style: none;
+    background-color: var(--primary);
+    padding: 20px;
+    border-radius: 4px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.nav-items{
+    color: var(--bg-color);
+}
+
+.nav-items:hover{
+    color: var(--info);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.card{
+    box-shadow: rgba(50, 50, 93,.1) 0px 2px 5px;
+    background-color: var(--secondary);
+    border-radius: 4px;
+}
+
+.card-header{
+    text-align: left;
+    padding: 20px 20px 0 20px;
+}
+
+.card-title{
+    font-size: 16px;
+}
+
+.card-body{
+    padding: 0 20px 20px 20px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.card-footer{
+    padding: 0 20px 20px 20px;
+    font-size: 14px;
+}
+
+.img-fluid{
+    width: 100%;
+    border-radius: 4px;
+}
+
+.txt-white{
+    color: var(--bg-color);
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+
+}
+
+.logo-footer{
+  justify-self: start;
+  cursor: pointer;
+  width: 50px;
+}
+
+.copyright{
+    justify-content: end;
+    font-size: 14px;
+
+}
